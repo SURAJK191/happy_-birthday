@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 18th Birthday Krishnaveni!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="birthday-text-loader">
+                <span class="letter">H</span>
+                <span class="letter">A</span>
+                <span class="letter">P</span>
+                <span class="letter">P</span>
+                <span class="letter">Y</span>
+                <span class="letter space"></span>
+                <span class="letter">B</span>
+                <span class="letter">I</span>
+                <span class="letter">R</span>
+                <span class="letter">T</span>
+                <span class="letter">H</span>
+                <span class="letter">D</span>
+                <span class="letter">A</span>
+                <span class="letter">Y</span>
+            </div>
+            <div class="name-loader">
+                Krishnaveni.K
+            </div>
+            <div class="loading-text">The celebration is starting...</div>
+        </div>
+    </div>
+
+    <!-- Background Music (Optional) -->
+    <!-- Uncomment the audio tag below to enable background music -->
+    <!-- 
+    <audio id="bg-music" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-happy-birthday-to-you-443.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    -->
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <!-- Floating Elements Background -->
+        <div class="floating-container"></div>
+
+        <!-- Image Slider Carousel -->
+        <section class="image-carousel" aria-label="Krishnaveni's photo carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <div class="slide active">
+                        <img src="Screenshot 2026-01-16 230548.png" alt="Krishnaveni smiling beautifully" loading="lazy">
+                        <div class="slide-caption">Beautiful Smile</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG-20230902-WA0027.jpg" alt="Krishnaveni having joyful moments" loading="lazy">
+                        <div class="slide-caption"> one of the memorabel day</div>
+                    </div>
+                    <div class="slide">
+                        <img src="Screenshot_2024_1115_060409.jpg" alt="Krishnaveni on a special day" loading="lazy">
+                        <div class="slide-caption">Special Day</div>
+                    </div>
+                    <div class="slide">
+                        <img src="IMG_20250605_212650.jpg" alt="Krishnaveni celebrating life" loading="lazy">
+                        <div class="slide-caption">only word can define beautiful</div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev-btn" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-indicators" role="tablist">
+                    <span class="indicator active" role="tab" aria-selected="true" aria-label="Slide 1"></span>
+                    <span class="indicator" role="tab" aria-selected="false" aria-label="Slide 2"></span>
+                    <span class="indicator" role="tab" aria-selected="false" aria-label="Slide 3"></span>
+                    <span class="indicator" role="tab" aria-selected="false" aria-label="Slide 4"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Header with Birthday Message -->
+        <header class="header">
+            <div class="birthday-message">
+                <h1 id="birthday-text">Happy 18th Birthday!</h1>
+                <p class="subtitle">A magical journey begins today</p>
+            </div>
+            <div class="birthday-person">
+                <div class="person-icon" aria-hidden="true">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <p class="person-name">Krishnaveni.K</p>
+                <p class="person-tagline">The princess of the day</p>
+            </div>
+        </header>
+
+        <!-- Main Content Section -->
+        <main class="main-container">
+            <section class="intro-section">
+                <div class="intro-content">
+                    <div class="age-number">
+                        <span class="number">18</span>
+                        <div class="sparkles" aria-hidden="true">
+                            <i class="fas fa-sparkle"></i>
+                            <i class="fas fa-sparkle"></i>
+                            <i class="fas fa-sparkle"></i>
+                            <i class="fas fa-sparkle"></i>
+                        </div>
+                    </div>
+                    <p class="intro-text">Eighteen beautiful years of laughter, dreams, and wonderful memories. Today, you step into adulthood with grace and beauty. May this new chapter be filled with endless joy and success!</p>
+                    <div class="cta-buttons">
+                        <button id="confetti-btn" class="btn-secondary">
+                            <i class="fas fa-party-horn"></i> Celebrate!
+                        </button>
+                        <button id="message-btn" class="btn-tertiary">
+                            <i class="fas fa-envelope"></i> Special Message
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Birthday Wishes -->
+            <section class="wishes-section">
+                <h2><i class="fas fa-star"></i> Birthday Blessings</h2>
+                <div class="wishes-container">
+                    <div class="wish-card">
+                        <div class="wish-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Love & Joy</h3>
+                        <p>May your heart always be filled with love and your days with endless joy.</p>
+                    </div>
+                    <div class="wish-card">
+                        <div class="wish-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Success</h3>
+                        <p>Wishing you tremendous success in all your dreams and aspirations.</p>
+                    </div>
+                    <div class="wish-card">
+                        <div class="wish-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>Magic</h3>
+                        <p>May your life be filled with magical moments and wonderful surprises.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Memories Timeline Section -->
+            <section class="memories-timeline">
+                <div class="timeline-header">
+                    <h2><i class="fas fa-heart"></i> Good Times</h2>
+                    <p class="timeline-subtitle">Forever Memories</p>
+                </div>
+                
+                <div class="timeline-container">
+                    <!-- Memory 1 -->
+                    <div class="timeline-item" data-index="1">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20231216_174245.jpg" alt="Memory 1" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 1</h3>
+                                    <p>One of the best tree</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 2 -->
+                    <div class="timeline-item" data-index="2">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20250405_062420.jpg" alt="Memory 2" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 2</h3>
+                                    <p>Even a broken branch filled with lots of memory</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 3 -->
+                    <div class="timeline-item" data-index="3">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-party-horn"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20240421_064308.jpg"alt="Memory 3" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 3</h3>
+                                    <p>One of the flower from this tree</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 4 -->
+                    <div class="timeline-item" data-index="4">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG-20230902-WA0027.jpg"  alt="Memory 4" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 4</h3>
+                                    <p>When we went for a walk</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 5 -->
+                    <div class="timeline-item" data-index="5">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20231216_072542.jpg" alt="Memory 5" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 5</h3>
+                                    <p>your school back Gate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 6 -->
+                    <div class="timeline-item" data-index="6">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="84026.jpg" alt="Memory 6" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 6</h3>
+                                    <p>Beautiful princess</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 7 -->
+                    <div class="timeline-item" data-index="7">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20240421_064015.jpg" alt="Memory 7" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 7</h3>
+                                    <p>One of the girl is dancing here</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 8 -->
+                    <div class="timeline-item" data-index="8">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20250331_222156.jpg" alt="Memory 8" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 8</h3>
+                                    <p>One of the beautiful thought</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memory 9 -->
+                    <div class="timeline-item" data-index="9">
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="timeline-photo">
+                                <img src="IMG_20250520_203051.jpg" alt="Memory 9" loading="lazy">
+                                <div class="photo-overlay">
+                                    <h3>Memory 9</h3>
+                                    <p>One of the beautiful moments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Memories Modal -->
+        <div id="memories-modal" class="modal hidden" aria-hidden="true" role="dialog" aria-labelledby="memories-modal-title">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="memories-modal-title"><i class="fas fa-camera-retro"></i> Cherished Memories</h2>
+                    <button id="close-modal" class="close-btn" aria-label="Close memory gallery">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>  
+                <div class="modal-body">
+                    <div class="gallery-container">
+                        <!-- Memory photos will be loaded here by JavaScript -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>Every memory with you is a treasure. Here's to creating many more!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Special Message Modal -->
+        <div id="message-modal" class="modal hidden" aria-hidden="true" role="dialog" aria-labelledby="message-modal-title">
+            <div class="modal-content message-modal">
+                <div class="modal-header">
+                    <h2 id="message-modal-title"><i class="fas fa-envelope-open-text"></i> A Special Message</h2>
+                    <button id="close-message-modal" class="close-btn" aria-label="Close message">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="message-content">
+                        <div class="message-icon" aria-hidden="true">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="message-text">
+                             Dear Krishnaveni,<br><br>
+                            Happy 18th Birthday to an amazing person with a inosent heart and a bright spirit.<br>
+                            As you step into adulthood, trust yourself and follow your dreams to become sarjen—the world is yours to conquer.
+                        </p>
+                        <div class="message-signature">
+                            With all my love,<br>
+                            <span>Your Well-wisher</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with <i class="fas fa-heart" aria-hidden="true"></i> for Krishnaveni's 18th Birthday</p>
+            <p class="footer-note">May your special day be as wonderful as you are!</p>
+        </footer>
+    </div>
+
+    <!-- Confetti Container -->
+    <div id="confetti-container" aria-hidden="true"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
